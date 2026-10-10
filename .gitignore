@@ -1,0 +1,12 @@
+# 사용자마다 다른 값과 결과물
+data/
+data-mock/
+data-compare/
+exports/
+config.local.json
+scripts/env.sh
+# 처음 설정에서 카테고리에 맞게 만들어지는 규칙 파일
+brand/*
+!brand/README.md
+.DS_Store
+*.app/

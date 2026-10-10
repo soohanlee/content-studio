@@ -1,0 +1,11 @@
+{
+  "port": 4600,
+  "characterName": "",
+  "claudeBin": "",
+  "browserBin": "",
+  "jobTimeoutMinutes": 25,
+  "newsletterUrl": "",
+  "instagramHandle": "",
+  "model": "claude-sonnet-5-5",
+  "models": {}
+}

@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "studio-mock", "runtimeExecutable": "node", "runtimeArgs": ["server.js"], "env": { "STUDIO_MOCK": "1", "STUDIO_PORT": "4601" }, "port": 4601 }
+  ]
+}
