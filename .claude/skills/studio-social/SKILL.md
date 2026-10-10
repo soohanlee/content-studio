@@ -21,7 +21,7 @@ allowed-tools: Read Write Glob
 - 블로그에 없는 수치·사실은 새로 넣지 않는다.
 - **글쓴이의 개인 경험은 지어내지 않는다.** 1인칭 경험·일화는 블로그 초안, `topic.json`의 `notes`나 `brand/brand.md`의 화자 설정에 있는 것만 쓴다.
 - `brand/channels.md`가 말줄임표를 금지하면 카드, 캡션, 쓰레드 어디에도 쓰지 않는다.
-- 인스타그램 캐러셀 8~10장. `brand/channels.md`의 kind와 글자 수 제한을 지킨다. 첫 장은 `cover`, 마지막 장은 `outro`, 그 앞은 `summary`. 초안에 비유가 있으면 `compare` 카드를 1장 넣고, `compare_label`은 `brand/channels.md`에 정한 라벨로 한다. 수치가 핵심이면 `stat`을 1~2장 쓴다.
+- 인스타그램 캐러셀 8~10장. `brand/channels.md`에 인스타그램을 쓰지 않는다고 적혀 있어도 **항상 만든다**(프로그램이 카드 이미지로 바꾼다). `brand/channels.md`의 kind와 글자 수 제한을 지킨다. 첫 장은 `cover`, 마지막 장은 `outro`, 그 앞은 `summary`. 초안에 비유가 있으면 `compare` 카드를 1장 넣고, `compare_label`은 `brand/channels.md`에 정한 라벨로 한다. 수치가 핵심이면 `stat`을 1~2장 쓴다.
 - `series`는 `brand/channels.md`의 시리즈 이름 중 글에 맞는 것.
 - `outro`에는 캐릭터 이름(`characterName`)과 "저장해 두세요"를 넣는다.
 - 쓰레드 타래 정확히 5개, 각 450자 이내. 5번째 글 끝에 `{{BLOG_URL}}`을 그대로 둔다.
@@ -39,7 +39,7 @@ allowed-tools: Read Write Glob
       {"kind": "cover", "title": "큰 질문이나 숫자", "body": "부제"},
       {"kind": "point", "title": "한 메시지", "body": "설명"},
       {"kind": "stat", "title": "42%", "body": "숫자의 뜻 한 줄"},
-      {"kind": "compare", "title": "아는 것에 빗대면", "body": "비유와 다른 점"},
+      {"kind": "compare", "title": "비유 한 줄(예: 마트 주차 무료 시간 같아요)", "body": "닮은 점과 다른 점"},
       {"kind": "summary", "title": "세 줄 요약", "body": "첫째 줄\n둘째 줄\n셋째 줄"},
       {"kind": "outro", "title": "캐릭터 한마디", "body": "저장해 두세요. 팔로우 안내"}
     ],

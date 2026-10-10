@@ -8,7 +8,7 @@ allowed-tools: Read Write Glob WebSearch WebFetch
 
 # 카테고리 맞춤 규칙 만들기
 
-인자: `$ARGUMENTS` (예: `data/setup`). 이하 SETUP. 이 스킬은 처음 한 번만 실행한다. 여기서 만드는 파일이 이후 모든 스킬(주제·리서치·초안·SNS·뉴스레터)의 기준이 되므로, 이 분야에서 실제로 글을 잘 쓰는 사람이 지키는 규칙처럼 구체적으로 쓴다. 일반론("독자를 생각하라")은 쓰지 않는다.
+인자: `$ARGUMENTS` (예: `data/setup`). 이하 SETUP. 처음 설정에서 한 번 실행하고, 사용자가 "맞춤 규칙 다시 만들기"를 누르면 다시 실행한다. **`brand/`에 예전 파일이 있어도 참고하지 말고 처음부터 새로 써서 덮어쓴다**(예전 설정 값이 남지 않게). 여기서 만드는 파일이 이후 모든 스킬(주제·리서치·초안·SNS·뉴스레터)의 기준이 되므로, 이 분야에서 실제로 글을 잘 쓰는 사람이 지키는 규칙처럼 구체적으로 쓴다. 일반론("독자를 생각하라")은 쓰지 않는다.
 
 ## 0. 읽기
 
@@ -21,7 +21,7 @@ allowed-tools: Read Write Glob WebSearch WebFetch
    - `noEllipsis`: true면 말줄임표를 쓰지 않는다
    - `characterName`: 글쓴이(캐릭터) 이름. 실명이 아니다.
    - `samples`: 문체 샘플 수. 1 이상이면 `brand/corpus/`에 사용자의 예전 글이 있다.
-   - `channels`: 블로그·인스타그램·쓰레드·뉴스레터 사용 여부
+   - `channels`: 블로그·인스타그램·쓰레드는 **항상 만든다.** `instagramHandle`은 카드 아래에 적는 계정 이름일 뿐이라 비어 있어도 인스타그램 규칙을 빼지 않는다. `newsletter`는 구독 안내 줄을 넣을지만 정한다.
    - `today`
 2. `samples`가 1 이상이면 `brand/corpus/index.json`과 샘플 글을 모두 읽는다.
 
